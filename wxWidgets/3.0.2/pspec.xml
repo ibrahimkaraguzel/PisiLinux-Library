@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>wxWidgets</Name>
+        <Homepage>https://www.wxwidgets.org/</Homepage>
+        <Packager>
+            <Name>İbrahim KARAGÜZEL</Name>
+            <Email>ibrahimkaraguzel@windowslive.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <PartOf>programming</PartOf>
+        <IsA>library</IsA>
+        <Summary>wxWidgets is a C++ library that lets developers create applications for Windows, Mac OS X, Linux and other platforms with a single code base.</Summary>
+        <Description>wxWidgets is a C++ library that lets developers create applications for Windows, Mac OS X, Linux and other platforms with a single code base. It has popular language bindings for Python, Perl, Ruby and many other languages, and unlike other cross-platform toolkits, wxWidgets gives applications a truly native look and feel because it uses the platform's native API rather than emulating the GUI. It's also extensive, free, open-source and mature.</Description>
+        <BuildDependencies>
+            <Dependency>make</Dependency>
+        </BuildDependencies>
+        <Archive sha1sum="6461eab4428c0a8b9e41781b8787510484dea800" type="tarbz2">http://vorboss.dl.sourceforge.net/project/wxwindows/3.0.2/wxWidgets-3.0.2.tar.bz2</Archive>
+    </Source>
+    <Package>
+        <Name>wxWidgets</Name>
+        <RuntimeDependencies>
+            <Dependency>make</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-02-08</Date>
+            <Version>3.0.2</Version>
+            <Comment>miss</Comment>
+            <Name>İbrahim KARAGÜZEL</Name>
+            <Email>ibrahimkaraguzel@windowslive.com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
